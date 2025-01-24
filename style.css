@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    /* cursor: pointer; */
+    scroll-behavior: smooth;
+   
+}
+body p {
+    font-family: "Poppins", system-ui;
+}
+body h1,h2,h3,h4{
+    font-family: 'Avenir LT Pro', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    overflow-y: auto; 
+  }
+  .brandkit {
+    overflow: visible;
+  }

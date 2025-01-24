@@ -1,0 +1,568 @@
+.brandkit{
+    background-color:#1B2A31 ;
+    color: white;
+   
+}
+.brandkit-head{
+    text-align: center;
+}
+.brandkit-head h2{
+    font-size:40px;
+font-weight: bold;
+font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+.brandkit-head p{
+    line-height: 25px;
+  padding-top: 12px;
+    font-size: 14px;
+    font-style: "Poppins";
+    width: 862px;
+    margin: auto;
+}
+.brandkit-head{
+    margin-top: 90px;
+}
+
+.grid-part{
+    
+    margin-top: 60px;
+    display: grid;
+ 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 0.5fr;
+    grid-template-areas: 
+    "leftpic centerpic centerpic rightpic"
+    "leftpic secondleft secondcenter secondright";
+    gap: 8px; 
+    padding: 10px;
+
+}
+.grid-part div {
+    border: 2px solid #313f45; 
+    border-radius: 5px;
+    display: flex; 
+
+}
+
+.grid-part img {
+    width: 100%; 
+    height: 100%;
+}    
+
+#leftpic{
+    grid-area: leftpic;
+    background-color: #2b393f87 !important;
+
+}
+#centerpic{
+    width: 100%;
+    grid-area: centerpic;
+    background-color: #2b393f87 !important;
+}
+#rightpic{
+    grid-area: rightpic;
+    background-color: #2b393f87 !important;
+  height: 400px;
+
+  overflow: hidden;
+}
+#secondleft{
+    grid-area: secondleft;
+    background-color: #2b393f87 !important;
+}
+#secondcenter{
+    grid-area: secondcenter;
+    background-color: #2b393f87 !important;
+}
+#secondright{
+    grid-area: secondright;
+    background-color: #2b393f87 !important;
+}
+#leftpic img{ 
+    width: 100%;
+    object-fit: cover;
+    height: 491px;
+    margin-top: 77px;
+}
+#centerpic img{
+    object-fit: cover;
+    width: 100%;
+    height: 291px;
+    margin-top: 38px;
+}
+#rightpic img{
+   
+    object-fit: cover;
+ height: 417px;
+ position: relative;
+ margin-top: 67px;
+left: 38px;
+
+}
+#secondleft img{
+object-fit:inherit;
+height: 160px;
+}
+
+#secondright{
+object-fit: cover;
+width: 100%;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+    .brandkit{
+        background-color:#1B2A31 ;
+        color: white;
+       
+    }
+    .brandkit br{
+        display: none;
+    }
+    .brandkit-head{
+        text-align: center;
+    }
+    .brandkit-head h2{
+        font-size:25px;
+    font-weight: bold;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .brandkit-head p{
+        line-height: 25px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-style: "Poppins";
+        width: 259px;
+        text-align: center;
+    }
+    .brandkit-head{
+        margin-top: 90px;
+    } 
+
+    
+    .grid-part{
+        
+        margin-top: 60px;
+        display: grid;
+     
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 2fr 0.5fr;
+        grid-template-areas: 
+        "leftpic centerpic centerpic rightpic"
+        "leftpic secondleft secondcenter secondright";
+        gap: 8px; 
+        padding: 10px;
+    
+    }
+    .grid-part{
+      
+        border-radius: 5px;
+        display: flex; 
+    flex-direction: column;
+ 
+    }
+    
+    .grid-part img {
+        width: 100%; 
+        height: 100%;
+    }    
+    
+    #leftpic{
+        grid-area: leftpic;
+    background-color:#2b393f ;
+    }
+    #centerpic{
+        width: 100%;
+        grid-area: centerpic;
+        background-color:#2b393f ;
+    }
+    #rightpic{
+        grid-area: rightpic;
+        background-color:#2b393f ;
+      height: 260px;
+    
+      overflow: hidden;
+    }
+    #secondleft{
+        grid-area: secondleft;
+        background-color:#2b393f ;
+    }
+    #secondcenter{
+        grid-area: secondcenter;
+        background-color:#2b393f ;
+    }
+    #secondright{
+        grid-area: secondright;
+        background-color:#2b393f ;
+    }
+    #leftpic img{
+     
+    object-fit: cover;
+    height: auto;
+    }
+    #centerpic img{
+        object-fit: cover;
+    width: 100%;
+    height: 260px;
+    }
+    #rightpic img{
+       
+        object-fit: cover;
+        height: 334px;
+        width: 100%;
+        position: relative;
+        bottom: 28%;
+    
+    }
+    #secondleft img{
+    object-fit: cover;
+    height: auto;
+    }
+    
+    #secondright{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    }
+    
+}
+ 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    
+    .brandkit{
+        background-color:#1B2A31 ;
+        color: white;
+       
+    }
+    .brandkit br{
+        display: none;
+    }
+    .brandkit-head{
+        text-align: center;
+    }
+    .brandkit-head h2{
+        font-size:30px;
+    font-weight: bold;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .brandkit-head p{
+        line-height: 25px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-style: "Poppins";
+        margin: auto;
+        width: 527px;
+    }
+    .brandkit-head{
+        margin-top: 90px;
+    }   
+    
+    .grid-part{
+        
+        margin-top: 60px;
+        display: grid;
+     
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 2fr 0.5fr;
+        grid-template-areas: 
+        "leftpic centerpic centerpic rightpic"
+        "leftpic secondleft secondcenter secondright";
+        gap: 8px; 
+        padding: 10px;
+    
+    }
+    .grid-part{
+        
+        border-radius: 5px;
+        display: flex; 
+    flex-direction: column;
+ 
+    }
+    
+    .grid-part img {
+        width: 100%; 
+        height: 100%;
+    }    
+    
+    #leftpic{
+        grid-area: leftpic;
+    background-color:#2b393f ;
+    }
+    #centerpic{
+        width: 100%;
+        grid-area: centerpic;
+        background-color:#2b393f ;
+    }
+    #rightpic{
+        grid-area: rightpic;
+        background-color:#2b393f ;
+      height: 260px;
+    
+      overflow: hidden;
+    }
+    #secondleft{
+        grid-area: secondleft;
+        background-color:#2b393f ;
+    }
+    #secondcenter{
+        grid-area: secondcenter;
+        background-color:#2b393f ;
+    }
+    #secondright{
+        grid-area: secondright;
+        background-color:#2b393f ;
+    }
+    #leftpic img{
+     
+    object-fit: cover;
+    height:auto;
+    }
+    #centerpic img{
+        object-fit: cover;
+    width: 100%;
+    height: auto;
+    }
+    #rightpic img{
+       
+        object-fit: cover;
+        height: 377px;
+        position: relative;
+        margin-top: 0;
+       left: 38px;
+   
+    
+    }
+    #secondleft img{
+        object-fit: cover;
+        height: auto;
+    }
+    
+    #secondright{
+    object-fit: cover;
+    width: 100%;
+    height: 260px;
+    }
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .brandkit{
+        background-color:#1B2A31 ;
+        color: white;
+    }
+    .brandkit br{
+        display: none;
+    }
+    .brandkit-head{
+        text-align: center;
+    }
+    .brandkit-head h2{
+        font-size:39px;
+    font-weight: bold;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    }
+    .brandkit-head p{
+        text-align: center;
+        line-height: 25px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-style: "Poppins";
+        width: 700px;
+    }
+    .brandkit-head{
+        margin-top: 90px;
+    }
+    
+    .grid-part {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr auto auto;
+        grid-template-areas: 
+        "centerpic centerpic centerpic" /* First row: Centerpic spans all 3 columns */
+        "leftpic leftpic rightpic"      /* Second row: Leftpic takes 2 columns, rightpic 1 */
+        "secondleft secondcenter secondright";
+        
+        gap: 8px; 
+        padding: 10px;
+       
+    }
+
+    #leftpic {
+        grid-area: leftpic ;
+        background-color: #2b393f;
+    }
+
+    #centerpic {
+        grid-area: centerpic ;
+        background-color: #2b393f;
+        width: 100%;
+    }
+
+    #rightpic {
+        grid-area: rightpic ;
+        background-color: #2b393f;
+        height: auto;
+    }
+
+    #secondleft {
+        grid-area: secondleft ;
+        background-color: #2b393f;
+    }
+
+    #secondcenter {
+        grid-area: secondcenter;
+        background-color: #2b393f;
+    }
+
+    #secondright {
+        grid-area: secondright;
+        background-color: #2b393f;
+    }
+
+    /* Images */
+    #leftpic img{
+        object-fit: cover;
+        height:417px;
+        width: 100%;
+        margin-top: 0;
+    }
+#rightpic img{
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+}
+    #centerpic img {
+        object-fit: cover;
+        width: 100%;
+        height: 380px;
+    }
+
+    #secondleft img, #secondcenter img, #secondright img {
+        object-fit: fill;
+        width: 100%;
+        height: 160px;
+      
+    }
+    
+}
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+    .brandkit{
+        background-color:#1B2A31 ;
+        color: white;
+       
+    }
+    .brandkit br{
+        display: none;
+    }
+    .brandkit-head{
+        text-align: center;
+    }
+    .brandkit-head h2{
+        font-size:40px;
+    font-weight: bold;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+    }
+    .brandkit-head p{
+        line-height: 25px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-style: "Poppins";
+        width: 700px;
+    }
+    .brandkit-head{
+        margin-top: 90px;
+    }
+    
+    .grid-part{
+        
+        margin-top: 60px;
+        display: grid;
+     
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 2fr 0.5fr;
+        grid-template-areas: 
+        "leftpic centerpic centerpic rightpic"
+        "leftpic secondleft secondcenter secondright";
+        gap: 8px; 
+        padding: 10px;
+    
+    }
+    .grid-part div {
+        border: 2px solid #313f45; 
+        border-radius: 5px;
+        display: flex; 
+    
+    }
+    
+    .grid-part img {
+        width: 100%; 
+        height: 100%;
+    }    
+    
+    #leftpic{
+        grid-area: leftpic;
+    background-color:#2b393f ;
+    }
+    #centerpic{
+        width: 100%;
+        grid-area: centerpic;
+        background-color:#2b393f ;
+    }
+    #rightpic{
+        grid-area: rightpic;
+        background-color:#2b393f ;
+      height: auto;
+    
+      overflow: hidden;
+    }
+    #secondleft{
+        grid-area: secondleft;
+        background-color:#2b393f ;
+    }
+    #secondcenter{
+        grid-area: secondcenter;
+        background-color:#2b393f ;
+    }
+    #secondright{
+        grid-area: secondright;
+        background-color:#2b393f ;
+    }
+    #leftpic img{
+     
+    object-fit: cover;
+    height: auto;
+    }
+    #centerpic img{
+        object-fit: cover;
+        width: 100%;
+        height: fit-content;
+        padding-top: 60px;
+    }
+    #rightpic img{
+        object-fit: cover;
+        height: 350px;
+        position: relative;
+        margin-top: 138px;
+        left: -9px;
+        width: 251px;
+    
+    }
+    #secondleft img{
+    object-fit: inherit;
+    height: 160px;
+    }
+    
+    #secondright{
+    object-fit: cover;
+    width: 100%;
+    }
+    
+}
+ 
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {}
+ 

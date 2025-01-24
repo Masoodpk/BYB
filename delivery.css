@@ -1,0 +1,489 @@
+.delivery-sec{
+    background-color: #1B2A31;
+ 
+}
+.delivery-sec .container{
+    background-color:#2b393f ;
+    border: solid;
+    border-width:1px ;
+    border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+   
+
+}
+
+.deliveryParent{
+    display: flex;
+   
+}
+.delivery-left{
+display: flex;
+justify-content: center;
+    height: 350px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.delivery-left img{
+    margin-left: 10%;
+    height:auto;
+    width: 100%;
+    object-fit: inherit;
+}
+.delivery-right{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    color: white;
+  margin-top: 50px;
+}
+.delivery-right h4{
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.price .pricecost{
+font-size: 14px;
+color: #848c90;
+}
+.price .pricenumber{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    
+}
+.price2 .pricenumber{
+    position: relative;
+}
+.price2 .pricenumber::after{
+    content: "";
+    position: absolute;
+    border-top: 2px solid red;
+    top: 27px;
+    width: 153px;
+    left: 1px;
+    right: 0;
+    transform: rotate(15deg);
+  }
+.delivery-btn button{
+  
+    padding: 14px;
+    width: 135px;
+    color:black ;
+    background-color: white;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+}
+.below-delivery p{
+    margin: 50px 50px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 780px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 390px) {
+    .price2 .pricenumber{
+        position: relative;
+    }
+    .price2 .pricenumber::after {
+        content: "";
+        position: absolute;
+        border-top: 2px solid red;
+        top: 21px;
+        width: 118px;
+        left: 28% !important;
+        right: 0;
+        transform: rotate(14deg);
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+    .delivery-sec{
+        background-color: #1B2A31;
+       padding: 10px;
+    }
+
+    .delivery-sec .container{
+        background-color:#2b393f ;
+        border: solid;
+        border-width:1px ;
+        border-radius: 10px;
+        border-color: rgba(78, 76, 76, 0.098);
+      
+       
+    
+    }
+    .deliveryParent{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .delivery-left{
+    display: flex;
+    /* justify-content: center; */
+        height: 255px;
+        width: 100%;
+        margin-top: 60px;
+    margin-left: 0;
+    }
+    .delivery-left img{
+        width: 100%;
+        margin-left: 0;
+        object-fit: inherit;
+        height: 250px;
+    }
+    .delivery-right{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+        color: white;
+      margin-top: 30px;
+    }
+    .delivery-right h4{
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .price .pricecost{
+    font-size: 14px;
+    color: #848c90;
+    text-align: center;
+    }
+    .price .pricenumber{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .delivery-btn {
+        display: flex;
+        justify-content: center; /* Center button horizontally */
+        width: 100%; /* Make sure it takes full width */
+    }
+    .delivery-right br {
+        display: none;
+      }
+    .delivery-btn button{
+      
+        padding: 14px;
+        width: 126px;
+        color:black ;
+        background-color: white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+        margin: 0;
+       
+    }
+    .below-delivery p{
+     
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+      
+       
+    }
+    .price2 .pricenumber{
+        position: relative;
+    }
+    .price2 .pricenumber::after {
+        content: "";
+        position: absolute;
+        border-top: 2px solid red;
+        top: 21px;
+        width: 118px;
+        left: 34%;
+        right: 0;
+        transform: rotate(14deg);
+    }
+}
+ 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .delivery-sec{
+        background-color: #1B2A31;
+       padding: 10px;
+    }
+
+    .delivery-sec .container{
+        background-color:#2b393f ;
+        border: solid;
+        border-width:1px ;
+        border-radius: 10px;
+        border-color: rgba(105, 105, 105, 0.082);
+      
+       
+    
+    }
+    .deliveryParent{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .delivery-left{
+    display: flex;
+    /* justify-content: center; */
+        height: 300px;
+        width: 100%;
+        margin-top: 60px;
+    margin-left: 0;
+    }
+    .delivery-left img{
+    margin-left: 0;
+        height: 300px;
+        width: 100%;
+    }
+    .delivery-right{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+        color: white;
+      margin-top: 50px;
+    }
+    .delivery-right h4{
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .price .pricecost{
+    font-size: 14px;
+    color: #848c90;
+    text-align: center;
+    }
+    .price .pricenumber{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .delivery-btn {
+        display: flex;
+        justify-content: center; /* Center button horizontally */
+        width: 100%; /* Make sure it takes full width */
+    }
+    
+    .delivery-btn button{
+      
+        padding: 14px;
+        width: 132px;
+        color:black ;
+        background-color: white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+        margin: 0;
+       
+    }
+    .below-delivery p{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        width: 500px;
+        margin: auto;
+      
+       
+    }
+    .price2 .pricenumber::after {
+        content: "";
+        position: absolute;
+        border-top: 2px solid red;
+        top: 20px;
+        width: 121px;
+        left: 39%;
+        right: 0;
+        transform: rotate(16deg);
+      }
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .delivery-sec{
+        background-color: #1B2A31;
+        
+    }
+    .delivery-sec br{
+        display: none;
+    }
+    .delivery-sec .row{
+        width: 100%;
+        display: flex;
+    }
+    .delivery-sec .col-md-6{
+        width: 50%;
+    }
+    .delivery-sec .col-md-6{
+        width: 50%;
+    }
+    .delivery-sec .container{
+        background-color:#2b393f ;
+        border: solid;
+        border-width:1px ;
+        border-radius: 10px;
+        border-color: rgba(105, 105, 105, 0.174);
+       
+    
+    }
+    .deliveryParent{
+        display: flex;
+       
+    }
+    .delivery-left{
+    display: flex;
+   justify-content: center;
+        height: 300px;
+        width: 100%;
+        margin-top: 60px;
+    margin-left: 0;
+    }
+    .delivery-left img{
+    
+        height: auto;
+        width: 88%;
+        padding-left: 30px;
+        object-fit: inherit;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .delivery-right{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+        color: white;
+      margin-top: 50px;
+      padding-right: 30px;
+    }
+    .delivery-right h4{
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .price .pricecost{
+    font-size: 14px;
+    color: #848c90;
+    }
+    .price .pricenumber{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .delivery-btn button{
+      
+        padding: 14px;
+        width: 140px;
+        color:black ;
+        background-color: white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+    }
+    .below-delivery p{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        width: 600px;
+        margin: auto;
+    }
+}
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+    .delivery-sec{
+        background-color: #1B2A31;
+        
+    }
+    .delivery-sec .row{
+        width: 100%;
+        display: flex;
+    }
+    .delivery-sec .col-md-6{
+        width: 50%;
+    }
+    .delivery-sec .col-md-6{
+        width: 50%;
+    }
+    .delivery-sec .container{
+        background-color:#2b393f ;
+        border: solid;
+        border-width:1px ;
+        border-radius: 10px;
+        border-color: rgba(105, 105, 105, 0.174);
+       
+    
+    }
+    .deliveryParent{
+        display: flex;
+       
+    }
+ 
+    .delivery-left{
+    display: flex;
+   justify-content: center;
+        height: none;
+        width: 93%;
+        margin-top: 60px;
+        margin-left: 30px;  
+    
+    }
+    .delivery-left img{
+    
+        height: auto;
+        width: 100%;
+        object-fit: inherit;
+        margin-left: 0;
+    }
+    .delivery-right{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+        color: white;
+      margin-top: 50px;
+    }
+    .delivery-right h4{
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .price .pricecost{
+    font-size: 14px;
+    color: #848c90;
+    }
+    .price .pricenumber{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .delivery-btn button{
+      
+        padding: 14px;
+        width: 140px;
+        color:black ;
+        background-color: white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+    }
+    .below-delivery p{
+        margin: auto;
+        font-size: 11px;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+ 
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {}
+ 

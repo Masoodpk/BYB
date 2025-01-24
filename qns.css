@@ -1,0 +1,909 @@
+
+.questions-sec{
+    background-color:  #1B2A31;
+}
+
+.questions-sec .qnsh3{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 113px;
+    margin-bottom: 0;
+    margin-left: -15px;
+    padding-left: 0;
+    position: absolute;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.questions-sec .col-md-5{
+    padding-left: 0;
+    padding-right: 0;
+}
+.questions-sec .col-md-7{
+    padding-right: 0;
+}
+.qns-left{
+    margin-top: 225px;
+   
+}
+.qns-right{
+    margin-top: 104px;
+    margin-right: -28px;
+}
+
+.accordionMainbyb{
+    height: 100%;
+}
+
+.letsTalk h3{
+    color: white;
+font-size: 20px;
+padding-left: 15px;
+margin-top: 28px;
+
+}
+.letsTalk p{
+    margin-top: 18px;
+    color: white;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.letsTalk button{
+    margin-top: 25px;
+    padding: 14px;
+    width: 110px;
+    color:black ;
+    background-color: white;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    margin-left: 15px;
+}
+.letsTalk{
+    background-color: #2b393f;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 450px;
+border: 1px solid rgba(255, 255, 255, 0.11) !important;
+    border-radius: 10px;
+    height: 290px;
+    position: relative;
+}
+
+:root {
+    /* --border-color: #cccccc;
+    --background-color: transparent; */
+    --transition: all 0.2s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+   
+}
+
+.accordionMainbyb {
+height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  
+}
+
+.accordionbyb {
+    display: flex;
+    flex-direction: column;
+   
+    gap: 25px;
+    margin-bottom: 70px;
+
+}
+
+
+
+.accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    visibility: visible;
+
+}
+
+.accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper hr {
+    visibility: visible;
+}
+
+.accordionbyb .accordionbyb-item .accordionbyb-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 22px;
+}
+
+.accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-title {
+   
+    color: white; /* Set text color to white */
+    line-height: 30px;
+    margin-left: 40px;
+    font-size: 16px;
+ 
+ 
+}
+
+.accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-icon {
+    transition: var(--transition);
+    stroke: white; /* Set icon stroke color to white */
+}
+
+.accordionbyb .accordionbyb-item.open .accordionbyb-item-header .accordionbyb-item-header-icon {
+    transform: rotate(-180deg);
+}
+
+.accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper {
+    grid-template-rows: 1fr;
+}
+
+.accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description {
+    min-height: 0;
+}
+
+.accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description p {
+    padding: 10px;
+    line-height: 1.5;
+    color: white; 
+    margin-left: 42px;
+  
+    width: 594px;
+    padding-right: 113px;
+
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+
+      .questions-sec br{
+        display: none;
+    }
+    .questions-sec{
+        background-color:  #1B2A31;
+    }
+    .questions-sec .row{
+        display: flex;
+        flex-direction: column-reverse;
+      
+    }
+    .questions-sec .qnsh3{
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px;
+        margin: 43px -15px;
+        width: 100%;
+        margin-bottom: 0;
+        padding:0 20px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .questions-sec .qnsh3 br{
+        display: none;
+    } 
+    .qns-left h3{
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    .qns-left{
+        margin-top: 0;
+        padding: 10px;
+    }
+    .qns-right{
+        margin-top: 107px;
+        margin-right: 0;
+    }
+    
+    .accordionMainbyb{
+        height: 100%;
+    }
+    
+    .letsTalk h3{
+    font-size: 20px;
+    padding-left: 0;
+    text-align: center;
+    }
+    .letsTalk p{
+        margin-top: 10px;
+        color: white;
+        font-size: 12px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .letsTalk button{
+        margin-top: 20px;
+        padding: 14px;
+        width: 110px;
+        color:black ;
+        background-color: white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+        margin-left: 0;
+    }
+    .letsTalk{
+        background-color: #2b393f;
+        margin-top: -19px;
+        display: flex;
+        flex-direction: column;
+        padding: 22px;
+        width: 100%;
+        border-radius: 10px;
+        border:1px solid rgba(255, 255, 255, 0.116);
+        border-width: 1px;
+        height: 290px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    :root {
+        /* --border-color: #cccccc;
+        --background-color: transparent; */
+        --transition: all 0.2s ease;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+       
+    }
+    
+    .accordionMainbyb {
+    height: 100%;
+        display: flex;
+        align-items: center;
+
+      
+    }
+    
+    .accordionbyb {
+        display: flex;
+        flex-direction: column;
+     width: 100%;
+        gap: 25px;
+        margin-bottom: 70px;
+      
+    }
+    
+    
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper hr {
+        border: none;
+        border-top: 1px solid var(--border-color);
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper hr {
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        padding: 10px;
+        cursor: pointer;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-title {
+       
+        color: white; /* Set text color to white */
+        line-height: 20px;
+      margin-left: 0;
+        font-size: 14px;
+     
+     
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transition: var(--transition);
+        stroke: white; /* Set icon stroke color to white */
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transform: rotate(-180deg);
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper {
+        display: grid;
+        grid-template-rows: 0fr;
+        overflow: hidden;
+        transition: var(--transition);
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper {
+        grid-template-rows: 1fr;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description {
+        min-height: 0;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description p {
+        padding: 10px;
+        line-height: 1.5;
+        color: white; 
+        padding-right: 240px;
+     margin-left: 0;
+     margin-bottom: 0;
+   padding-left: 0;
+    font-size: 12px;
+    width: 500px;
+    }
+    
+    
+    
+}
+ 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    
+    .questions-sec{
+        background-color:  #1B2A31;
+        display: flex;
+        flex-direction: column;
+    }
+    .questions-sec .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .questions-sec .qnsh3{
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+        margin-top: 50px;
+        margin-bottom: 314px;
+        padding:0 84px;
+        position: absolute;
+    }
+    .questions-sec .qnsh3 br{
+        display: none;
+    }
+   
+    .qns-left h3{
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    .qns-left{
+        margin-top: 0px;
+     
+    }
+    .qns-right{
+        margin-top: 123px;
+    }
+    
+    .accordionMainbyb{
+        height: 100%;
+    }
+    
+    .letsTalk h3{
+    font-size: 20px;
+    padding-left: 0;
+    margin-top: -13px;
+    }
+    .letsTalk p{
+        margin-top: 15px;
+        color: white;
+        font-size: 11px;
+        padding-left: 0;
+    }
+
+    .letsTalk button{
+        margin-top: 28px;
+        padding: 14px;
+        width: 110px;
+        color:black ;
+        background-color: white;
+        font-size: 12px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+        
+    }
+    .letsTalk{
+        text-align: center;
+        background-color: #2b393f;
+        margin-top: 0px;
+        display: flex;
+       
+        flex-direction: column;
+        padding: 30px;
+        width: 100%;
+justify-content: center;
+align-items: center;
+        border-radius: 10px;
+        border:1px solid rgba(255, 255, 255, 0.137);
+        border-width: 1px;
+        height: 290px;
+    }
+
+    :root {
+        /* --border-color: #cccccc;
+        --background-color: transparent; */
+        --transition: all 0.2s ease;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+       
+    }
+    .questions-sec .row .col-md-7{
+        padding-left: 0px;
+        padding-right: 13px;
+    }
+    .accordionMainbyb {
+    height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 585px;
+    }
+    
+    .accordionbyb {
+        display: flex;
+        flex-direction: column;
+       width: 96%;
+        gap: 25px;
+        margin-bottom: 70px;
+      
+    }
+    
+    
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper hr {
+        border: none;
+        border-top: 1px solid var(--border-color);
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper hr {
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-title {
+       
+        color: white; /* Set text color to white */
+        line-height: 20px;
+        margin-left: 0;
+        font-size: 16px;
+     
+     
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transition: var(--transition);
+        stroke: white; /* Set icon stroke color to white */
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transform: rotate(-180deg);
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper {
+        display: grid;
+        grid-template-rows: 0fr;
+        overflow: hidden;
+        transition: var(--transition);
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper {
+        grid-template-rows: 1fr;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description {
+        min-height: 0;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description p {
+        padding: 10px;
+        line-height: 1.5;
+        color: white; 
+        margin-left: 0;
+        padding-right: 50px;
+    }
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .questions-sec{
+        background-color:  #1B2A31;
+    }
+    .questions-sec .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .questions-sec .qnsh3{
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+        margin-top: 70px;
+        margin-bottom: 314px;
+        margin: 60px 167px;
+        position: absolute;
+        padding-left: 0;
+    }
+    .questions-sec .qnsh3 br{
+        display: none;
+    }
+    .qns-left h3{
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+       
+    }
+    .qns-left{
+        margin-top: 0px;
+        margin-bottom: 65px;
+    }
+    .qns-right{
+        margin-top: 150px;
+        width: 100%;
+    }
+    
+    .accordionMainbyb{
+        height: 100%;
+    }
+    
+    .letsTalk h3{
+    font-size: 20px;
+    padding-left: 0;
+    text-align: center;
+    margin-top: -16px;
+    }
+    .letsTalk p{
+        margin-top: 10px;
+        color: white;
+        font-size: 12px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .letsTalk button{
+        margin-top: 30px;
+        padding: 14px;
+        width: 110px;
+        color:black ;
+        background-color: white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+        margin-top: 29px;
+       
+    }
+    .letsTalk{
+        background-color: #2b393f;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 100%;
+        border-radius: 10px;
+        border:1px solid rgba(255, 255, 255, 0.1);
+        border-width: 1px;
+        height: 290px;
+        align-items: center; 
+        justify-content: center;
+    }
+    
+    :root {
+        /* --border-color: #cccccc;
+        --background-color: transparent; */
+        --transition: all 0.2s ease;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+       
+    }
+    
+    .accordionMainbyb {
+    height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+    .accordionbyb {
+        display: flex;
+        flex-direction: column;
+       
+        gap: 25px;
+        margin-bottom: 70px;
+      
+    }
+    
+    
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper hr {
+        border: none;
+        border-top: 1px solid var(--border-color);
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper hr {
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-title {
+       
+        color: white; /* Set text color to white */
+        line-height: 30px;
+      margin-left: -10px;
+        font-size: 16px;
+     
+     
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transition: var(--transition);
+        stroke: white; /* Set icon stroke color to white */
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transform: rotate(-180deg);
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper {
+        display: grid;
+        grid-template-rows: 0fr;
+        overflow: hidden;
+        transition: var(--transition);
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper {
+        grid-template-rows: 1fr;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description {
+        min-height: 0;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description p {
+        padding: 10px;
+        line-height: 1.5;
+        color: white; 
+        padding-right: 50px;
+        margin-left: 0;
+        margin-right: 64px;
+        padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: -9px;
+    }
+ 
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+    .questions-sec{
+        background-color:  #1B2A31;
+    }
+    
+    .qns-left h3{
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    .questions-sec .qnsh3{
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 40px;
+        margin-top: 93px;
+        margin-bottom: 314px;
+        padding-left: 0;
+        position: absolute;
+    }
+    .qns-left{
+        margin-top: 200px;
+    }
+    .qns-right{
+        margin-top: 80px;
+    }
+    
+    .accordionMainbyb{
+        height: 100%;
+    }
+    
+    .letsTalk h3{
+    font-size: 20px;
+    padding-left: 15px;
+    }
+    .letsTalk p{
+        margin-top: 10px;
+        color: white;
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .letsTalk button{
+        margin-top: 30px;
+        padding: 14px;
+        width: 110px;
+        color:black ;
+        background-color: white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+        margin-left: 15px;
+    }
+    .letsTalk{
+        background-color: #2b393f;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 380px;
+    
+        border-radius: 10px;
+        border: solid;
+        border-width: 1px;
+        height: 290px;
+    }
+    
+    :root {
+        /* --border-color: #cccccc;
+        --background-color: transparent; */
+        --transition: all 0.2s ease;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+       
+    }
+    
+    .accordionMainbyb {
+    height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+    .accordionbyb {
+        display: flex;
+        flex-direction: column;
+       
+        gap: 25px;
+        margin-bottom: 70px;
+      
+    }
+    
+    
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper hr {
+        border: none;
+        border-top: 1px solid var(--border-color);
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper hr {
+        visibility: visible;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-title {
+       
+        color: white; /* Set text color to white */
+        line-height: 30px;
+        margin-left: 40px;
+        font-size: 16px;
+     
+     
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transition: var(--transition);
+        stroke: white; /* Set icon stroke color to white */
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-header .accordionbyb-item-header-icon {
+        transform: rotate(-180deg);
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper {
+        display: grid;
+        grid-template-rows: 0fr;
+        overflow: hidden;
+        transition: var(--transition);
+    }
+    
+    .accordionbyb .accordionbyb-item.open .accordionbyb-item-description-wrapper {
+        grid-template-rows: 1fr;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description {
+        min-height: 0;
+    }
+    
+    .accordionbyb .accordionbyb-item .accordionbyb-item-description-wrapper .accordionbyb-item-description p {
+        padding: 10px;
+        line-height: 1.5;
+        color: white; 
+        margin-left: 0px;
+        margin-bottom: 0;
+      padding-left: 52px;
+        width: 550px;
+      padding-right: 62px;
+    
+    }
+    
+}
+}
+ 
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {}
+
+
+

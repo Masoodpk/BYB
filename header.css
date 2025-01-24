@@ -1,0 +1,1686 @@
+body p, ::placeholder {
+    font-family: "Poppins", system-ui;
+}
+.headerbyb{
+    background-image: url('assets/image.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    width: 100%;
+    /* height: 100vh; */
+   position: relative;
+
+}
+
+/* //////////res-nav */
+.sec-contact-responsiveNAV {
+  width: 100%;
+  z-index: 9999;
+  left: 0;
+  position: relative; /* Default position */
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  transition: top 0.3s ease-in-out;
+}
+.sec-contact-responsiveNAV.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.hide_scroll {
+  overflow: hidden;
+}
+.sec-contact-responsiveNAV.scrolled {
+  background-color: #1B2A31;
+}
+.RESnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 100;
+    margin-bottom: 0;
+    display: none;
+    
+  }
+
+  .RESnav-links a {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 18px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Add hover effect */
+.RESnav-links a:hover {
+    text-decoration: underline;
+}
+
+  .logo-ResNav img{
+    height: 50px;
+    width: 50px;
+ margin-left: 6px;
+   }
+  
+  .RESnav-links {
+    list-style: none;
+    display: flex;
+   
+  }
+  
+  .RESnav-links li {
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+  }
+  
+ 
+  
+  .RESburger {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .RESburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+.RESnav-links button{
+    background-color: transparent;
+border: solid ;
+border-width: 1px;
+border-radius: 30px;
+border-color: rgb(87, 85, 85);
+padding: 15px;
+color: white;
+margin-top: 20px;
+}
+
+  /* Responsive Media Queries */
+  @media screen and (max-width: 768px) {
+    .RESnav-links {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color: transparent;
+      z-index: 99;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+
+
+
+    .RESnav-links li {
+      margin: 20px 0;
+    }
+  
+    .RESburger {
+      display: block;
+    }
+  
+    .REStoggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .REStoggle .line2 {
+      opacity: 0;
+    }
+  
+    .REStoggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  }
+  
+
+
+
+
+
+
+.headerHR{
+    width: 100%; 
+    border: none; 
+    height: 1px; 
+    background-color: rgba(105, 105, 105, 0.103); 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+
+    margin-top: 0;
+}
+.navbyb-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Poppins", system-ui;
+
+}
+.navbyb-list li a {
+  text-decoration: none; 
+  color: white; 
+}
+.navbyb-list{
+    display: flex;
+    gap: 40px;
+}
+.logobyb img{
+  width: 240px !important;
+}
+.navbyb-list-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:45px;
+}
+.navbyb-list-content ul{
+  margin-bottom: 0;
+}
+.navbyb-list a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.navbyb-list-content button{
+     background-color: transparent;
+color: white;
+border-radius: 30px;
+border: 1px solid #ffffff2b;
+padding: 15px;
+}
+/* hr{
+    background-color: dimgray;
+} */
+
+
+
+.bannerbyb{
+    margin-top: 150px;
+    
+}
+
+.left-bannerbyb{
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.left-bannerbyb h1{
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 45px;
+    line-height: 60px;
+    width: 450px;
+}
+.left-bannerbyb p{
+   
+    font-size: 15px;
+    line-height: 70px;
+    font-family: Poppins;
+}
+.left-bannerbyb span{
+    font-weight: bold;
+}
+
+
+.bannerbyb-btn{
+    display: flex;
+    gap: 15px;
+}
+.bannerbyb-btn1{
+    padding: 15px;
+    width: 120px;
+    color:black ;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+}
+.bannerbyb-btn1:hover{
+color: white;
+background-color: black;
+}
+.bannerbyb-btn2{
+    padding: 13px;
+    width: 150px;
+    color:white ;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    background-color:transparent;
+    font-size: 12px;
+font-weight: 500;
+    border-radius: 30px;
+    border: solid;
+    border-width: 1px;
+}
+
+.bannerbyb-btn2:hover{
+  color: black;
+  background-color: white;
+  }
+.right-bannerbyb{
+ margin-top: 40px;
+    height: 500px;
+    width: 100%;
+ 
+}
+.right-bannerbyb img{
+    position: absolute;
+    bottom: 0;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+ right: 7%;
+    margin-top: 77px;
+   object-fit: cover;
+} 
+@media only screen and (min-width: 280px) and (max-width: 319px) {
+  .logoNavimg img{
+    width:123px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 411px) {
+  .logoNavimg img{
+    width:150px;
+  }
+}
+@media only screen and (min-width: 412px) and (max-width: 500px) {
+  .logoNavimg img{
+    width:180px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 575px) {
+  .logoNavimg img{
+    width:220px !important;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+    .headerbyb{
+        /* background-image: url(assets/image.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        width: 100%;
+        /* height: 100vh; */
+       position: relative;
+    
+    }
+
+    .headerbyb .container{
+        padding: 0;
+    }
+    
+    /* //////////res-nav */
+    
+.RESnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 100;
+    margin-bottom: 0;
+    
+  }
+  
+  .logoNavimg{
+   
+    font-weight: bold;
+    color: white;
+  }
+  
+  .RESnav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .RESnav-links li {
+    margin-left: 20px;
+    
+  }
+  
+  .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .RESnav-links a:hover {
+    color: yellow;
+  }
+  
+  .RESburger {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .RESburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+.RESnav-links button{
+    background-color: transparent;
+border: solid ;
+border-width: 1px;
+border-radius: 30px;
+border-color: rgb(87, 85, 85);
+padding: 15px;
+color: white;
+margin-top: 20px;
+font-size: 18px;
+}
+  
+  /* Responsive Media Queries */
+  @media screen and (max-width: 768px) {
+    .RESnav-links {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color:#1B2A31 ;
+      z-index: 99;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .RESnav-links li {
+      margin: 20px 0;
+      font-size: 1.5rem;
+    }
+  
+    .RESburger {
+      display: block;
+    }
+  
+    .REStoggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .REStoggle .line2 {
+      opacity: 0;
+    }
+  
+    .REStoggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  }
+  
+
+    
+    
+    .headerHR{
+        width: 100%; 
+        border: none; 
+        height: 1px; 
+        background-color: dimgray; 
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+    
+        margin-top: 0;
+    }
+    .navbyb-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        font-family: "Poppins", system-ui;
+    display: none;
+    }
+    .navbyb-list{
+        display: flex;
+        gap: 40px;
+    }
+    .logobyb img{
+      width:150px;
+    }
+    .navbyb-list-content{
+        color: white;
+        display: flex;
+        align-items: center;
+        gap:65px;
+    }
+  
+
+    .navbyb-list-content button{
+         background-color: transparent;
+    border: solid ;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: rgb(87, 85, 85);
+    padding: 15px;
+    }
+    /* hr{
+        background-color: dimgray;
+    } */
+    
+    
+    
+    .bannerbyb{
+        margin-top: 40px;
+        
+    }
+    .bannerbyb .row{
+      margin-right: 0;
+  margin-left: 0;
+    }
+    .left-bannerbyb{
+    color: white;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .left-bannerbyb h1{
+      font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 27px;
+      line-height: 43px;
+      text-align: center;
+      width: 100%;
+      margin-top: 70px;
+    }
+    .left-bannerbyb p{
+       text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: Poppins;
+    }
+    .left-bannerbyb span{
+        font-weight: bold;
+    }
+    
+    
+    .bannerbyb-btn{
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+      width: 100%;
+        
+    }
+    .bannerbyb-btn1{
+      padding: 15px;
+      width: 105px;
+        color:black ;
+        background-color: white;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: none;
+        margin: auto;
+        margin-right: 0;
+    }
+    .bannerbyb-btn2{
+      padding: 14px;
+      width: 129px;
+        /* color:black ; */
+        border-color: rgba(97, 97, 97, 0.082);
+        background-color:transparent;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: solid;
+        border-width: 0.5px;
+        margin: auto;
+        margin-left: 0;
+    }
+    
+    
+    .right-bannerbyb{
+     margin-top: 100px;
+        height: 300px;
+        width: 100%;
+     
+    }
+    .right-bannerbyb img{
+      position: absolute;
+      bottom: 0;
+      height: auto;
+      width: 100%;
+ left: 0;
+      object-fit: cover;
+    } 
+}
+ 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .headerbyb{
+    /* background-image: url(assets/image.png); */
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    width: 100%;
+    /* height: 100vh; */
+   position: relative;
+
+}
+
+.headerbyb .container{
+    padding: 0;
+}
+
+/* //////////res-nav */
+.logoNavimg img{
+  width:220px !important;
+}
+.RESnavbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+background-color: transparent;
+z-index: 100;
+margin-bottom: 0;
+}
+
+.logoNavimg{
+
+font-weight: bold;
+color: white;
+}
+
+.RESnav-links {
+list-style: none;
+display: flex;
+}
+
+.RESnav-links li {
+margin-left: 20px;
+
+}
+
+.RESnav-links a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+transition: color 0.3s ease;
+}
+
+.RESnav-links a:hover {
+color: yellow;
+}
+
+.RESburger {
+display: none;
+cursor: pointer;
+z-index: 100;
+}
+
+.RESburger div {
+width: 25px;
+height: 3px;
+background-color: white;
+margin: 5px;
+transition: all 0.3s ease;
+}
+
+.RESnav-links button{
+background-color: transparent;
+border: solid ;
+border-width: 1px;
+border-radius: 30px;
+border-color: rgb(87, 85, 85);
+padding: 15px;
+color: white;
+margin-top: 20px;
+font-size: 18px;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+.RESnav-links {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-color:#1B2A31 ;
+  z-index: 99;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.RESnav-links li {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.RESburger {
+  display: block;
+}
+
+.REStoggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.REStoggle .line2 {
+  opacity: 0;
+}
+
+.REStoggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+}
+/* ////////////// */
+.headerHR{
+    width: 100%; 
+    border: none; 
+    height: 1px; 
+    background-color: dimgray; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+
+    margin-top: 0;
+}
+.navbyb-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Poppins", system-ui;
+display: none;
+}
+.navbyb-list{
+    display: flex;
+    gap: 40px;
+}
+.logobyb img{
+  width: 150px;
+}
+.navbyb-list-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:65px;
+}
+
+
+.navbyb-list-content button{
+     background-color: transparent;
+border: solid ;
+border-width: 1px;
+border-radius: 30px;
+border-color: rgb(87, 85, 85);
+padding: 15px;
+}
+/* hr{
+    background-color: dimgray;
+} */
+
+
+
+.bannerbyb{
+    margin-top: 40px;
+    
+}
+.bannerbyb .row{
+  margin-right: 0;
+margin-left: 0;
+}
+.left-bannerbyb{
+  color: white;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+.left-bannerbyb h1{
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px;
+    margin-top: 100px;
+}
+.left-bannerbyb p{
+   text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Poppins;
+}
+.left-bannerbyb span{
+    font-weight: bold;
+}
+.bannerbyb .row .col-lg-6{
+  padding-right:0px;
+  padding-left: 0px;
+}
+
+.bannerbyb-btn{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+.bannerbyb-btn1{
+  padding: 14px;
+  width: 104px;
+    color:black ;
+    background-color: white;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+
+}
+.bannerbyb-btn2{
+  padding: 14px;
+  width: 130px;
+ color: white;
+    border-color: rgba(54, 54, 54, 0.057);
+    background-color:transparent;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: solid;
+    border-width: 1px;
+
+}
+
+
+
+
+.right-bannerbyb{
+ margin-top: 0px;
+    height: 600px;
+    width: 100%;
+ 
+}
+.right-bannerbyb img{
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 88%;
+  object-fit: cover;
+  padding: 0px 0px;
+} 
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .sec-contact-responsiveNAV{
+    padding: 0px 30px;
+  }
+.headerbyb .container{
+  width: 100%;
+}
+.logoNavimg img{
+  width:240px !important;
+}
+  .RESnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 100;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+
+  .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Add hover effect */
+.RESnav-links a:hover {
+    text-decoration: underline;
+}
+
+  .logo-ResNav img{
+    height: 50px;
+    width: 50px;
+ margin-left: 6px;
+   }
+  
+  .RESnav-links {
+    list-style: none;
+    display: flex;
+   
+  }
+  
+  .RESnav-links li {
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+  }
+  
+
+  
+  .RESburger {
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .RESburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+.RESnav-links button{
+    background-color: transparent;
+border: solid ;
+border-width: 1px;
+border-radius: 30px;
+border-color: rgb(87, 85, 85);
+padding: 15px;
+color: white;
+margin-top: 20px;
+font-size: 16px;
+}
+  
+  /* Responsive Media Queries */
+  @media screen and (max-width: 991.98px) {
+    .RESnav-links {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color: #1B2A31;
+      z-index: 99;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+
+
+
+    .RESnav-links li {
+      margin: 20px 0;
+    }
+  
+    .RESburger {
+      display: block;
+    }
+  
+    .REStoggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .REStoggle .line2 {
+      opacity: 0;
+    }
+  
+    .REStoggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  }
+  
+
+
+
+
+
+.bannerbyb .col-lg-6{
+  padding-left: 0;
+}
+.headerHR{
+    width: 100%; 
+    border: none; 
+    height: 1px; 
+    background-color: rgba(105, 105, 105, 0.103); 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+
+    margin-top: 0;
+}
+.navbyb-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Poppins", system-ui;
+padding-right: 0;
+display: none;
+}
+.navbyb-list li a {
+  text-decoration: none; 
+  color: white; 
+}
+.navbyb-list{
+    display: flex;
+    gap: 11px;
+}
+.logobyb img{
+  width: 204px;
+}
+.navbyb-list-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.navbyb-list a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.navbyb-list-content button{
+     background-color: transparent;
+border: solid ;
+border-width: 1px;
+border-radius: 30px;
+border-color: rgb(87, 85, 85);
+padding: 15px;
+font-size: 12px;
+}
+/* hr{
+    background-color: dimgray;
+} */
+
+
+
+.bannerbyb{
+    margin-top: 80px;
+    
+}
+.left-bannerbyb{
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 5px;
+}
+.left-bannerbyb h1{
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    color: white;
+    width: 479px;
+  margin-top: 100px;
+}
+.left-bannerbyb p{
+   color: white;
+    font-size: 15px;
+    line-height: 70px;
+    font-family: Poppins;
+}
+.left-bannerbyb span{
+    font-weight: bold;
+}
+
+
+.bannerbyb-btn{
+    display: flex;
+    gap: 15px;
+   
+}
+.bannerbyb-btn1{
+    padding: 15px;
+    width: 120px;
+    color:black ;
+    background-color: white;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+}
+.bannerbyb-btn2{
+  padding: 14px;
+    width: 150px;
+  
+    border-color: rgba(50, 49, 49, 0.084);
+    background-color:transparent;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: solid;
+    border-width: 1px;
+    color: white;
+}
+
+
+.right-bannerbyb{
+ margin-top: 20px;
+    height: 700px;
+    width: 100%;
+ 
+}
+.right-bannerbyb img{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+   object-fit: cover;
+   left: 0;
+} 
+}
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+  
+
+
+.headerHR{
+  width: 100%; 
+  border: none; 
+  height: 1px; 
+  background-color: rgba(105, 105, 105, 0.103); 
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+
+  margin-top: 0;
+}
+.navbyb-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Poppins", system-ui;
+
+}
+.navbyb-list li a {
+text-decoration: none; 
+color: white; 
+}
+.navbyb-list{
+  display: flex;
+  gap: 40px;
+}
+.logobyb img{
+  width: 200px !important;
+}
+.navbyb-list-content{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap:51px;
+}
+.navbyb-list a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+.navbyb-list-content button{
+   background-color: transparent;
+border: solid ;
+border-width: 1px;
+border-radius: 30px;
+border: 1px solid #ffffff2b;
+padding: 15px;
+}
+/* hr{
+  background-color: dimgray;
+} */
+
+
+
+.bannerbyb{
+  margin-top: 100px;
+  
+}
+.left-bannerbyb{
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.left-bannerbyb h1{
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  font-size: 45px;
+  line-height: 60px;
+  width: 664px;
+  text-align: center;
+}
+.left-bannerbyb p{
+ 
+  font-size: 15px;
+  line-height: 70px;
+  font-family: Poppins;
+}
+.left-bannerbyb span{
+  font-weight: bold;
+}
+
+
+.bannerbyb-btn{
+  display: flex;
+  gap: 15px;
+}
+.bannerbyb-btn1{
+  padding: 15px;
+  width: 120px;
+  color:black ;
+  background-color: white;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+}
+.bannerbyb-btn2{
+  padding: 14px;
+  width: 150px;
+   color:white ; 
+  border-color: rgba(255, 255, 255, 0.084);
+  background-color:transparent;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 30px;
+  border: solid;
+  border-width: 1px;
+}
+
+
+.right-bannerbyb{
+margin-top: 40px;
+  height: 500px;
+  width: 90%;
+
+}
+.right-bannerbyb img{
+  position: absolute;
+  bottom: 0;
+  height: 500px;
+  width: 61%;
+  object-fit: cover;
+ left: 18%;
+} 
+}
+ 
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+  .left-bannerbyb h1{
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+
+  }
+}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+  .left-bannerbyb h1{
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+
+  }
+}
+ 
+
+
+@media only screen and (min-width: 280px) and (max-width: 320.98px) {
+  .RESnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 100;
+    margin-bottom: 0;
+    }
+    
+    .logoNavimg{
+    
+    font-weight: bold;
+    color: white;
+    }
+    
+    .RESnav-links {
+    list-style: none;
+    display: flex;
+    }
+    
+    .RESnav-links li {
+    margin-left: 20px;
+    
+    }
+    
+    .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    transition: color 0.3s ease;
+    }
+    
+    .RESnav-links a:hover {
+    color: yellow;
+    }
+    
+    .RESburger {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+    }
+    
+    .RESburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+    }
+    
+    .RESnav-links button{
+    background-color: transparent;
+    border: solid ;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: rgb(87, 85, 85);
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    font-size: 13px;
+    }
+    
+    /* Responsive Media Queries */
+    @media screen and (max-width: 768px) {
+    .RESnav-links {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color:#1B2A31 ;
+      z-index: 99;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .RESnav-links li {
+      margin: 20px 0;
+      font-size: 1.5rem;
+    }
+    
+    .RESburger {
+      display: block;
+    }
+    
+    .REStoggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .REStoggle .line2 {
+      opacity: 0;
+    }
+    
+    .REStoggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+    }
+    
+    
+}
+
+  
+@media only screen and (min-width: 321px) and (max-width: 375.98px) {
+  .RESnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 100;
+    margin-bottom: 0;
+    }
+    
+    .logoNavimg{
+    
+    font-weight: bold;
+    color: white;
+    }
+    
+    .RESnav-links {
+    list-style: none;
+    display: flex;
+    }
+    
+    .RESnav-links li {
+    margin-left: 20px;
+    
+    }
+    
+    .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    }
+    
+    .RESnav-links a:hover {
+    color: yellow;
+    }
+    
+    .RESburger {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+    }
+    
+    .RESburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+    }
+    
+    .RESnav-links button{
+    background-color: transparent;
+    border: solid ;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: rgb(87, 85, 85);
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    }
+    
+    /* Responsive Media Queries */
+    @media screen and (max-width: 768px) {
+    .RESnav-links {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color:#1B2A31 ;
+      z-index: 99;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .RESnav-links li {
+      margin: 20px 0;
+      font-size: 1.5rem;
+    }
+    
+    .RESburger {
+      display: block;
+    }
+    
+    .REStoggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .REStoggle .line2 {
+      opacity: 0;
+    }
+    
+    .REStoggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+    }
+}
+
+ 
+@media only screen and (min-width: 375px) and (max-width: 400.98px) {
+  .RESnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 100;
+    margin-bottom: 0;
+    }
+    
+    .logoNavimg{
+    
+    font-weight: bold;
+    color: white;
+    }
+    
+    .RESnav-links {
+    list-style: none;
+    display: flex;
+    }
+    
+    .RESnav-links li {
+    margin-left: 20px;
+    
+    }
+    
+    .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    }
+    
+    .RESnav-links a:hover {
+    color: yellow;
+    }
+    
+    .RESburger {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+    }
+    
+    .RESburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+    }
+    
+    .RESnav-links button{
+    background-color: transparent;
+    border: solid ;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: rgb(87, 85, 85);
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    }
+    
+    /* Responsive Media Queries */
+    @media screen and (max-width: 768px) {
+    .RESnav-links {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color:#1B2A31 ;
+      z-index: 99;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .RESnav-links li {
+      margin: 20px 0;
+      font-size: 1.5rem;
+    }
+    
+    .RESburger {
+      display: block;
+    }
+    
+    .REStoggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .REStoggle .line2 {
+      opacity: 0;
+    }
+    
+    .REStoggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 575.98px) {
+  .RESnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 100;
+    margin-bottom: 0;
+    }
+
+    .logoNavimg{
+    
+    font-weight: bold;
+    color: white;
+    }
+    
+    .RESnav-links {
+    list-style: none;
+    display: flex;
+    }
+    
+    .RESnav-links li {
+    margin-left: 20px;
+    
+    }
+    
+    .RESnav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    }
+    
+    .RESnav-links a:hover {
+    color: yellow;
+    }
+    
+    .RESburger {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+    }
+    
+    .RESburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+    }
+    
+    .RESnav-links button{
+    background-color: transparent;
+    border: solid ;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: rgb(87, 85, 85);
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    }
+    
+    /* Responsive Media Queries */
+    @media screen and (max-width: 768px) {
+    .RESnav-links {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color:#1B2A31 ;
+      z-index: 99;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .RESnav-links li {
+      margin: 20px 0;
+      font-size: 1.5rem;
+    }
+    
+    .RESburger {
+      display: block;
+    }
+    
+    .REStoggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .REStoggle .line2 {
+      opacity: 0;
+    }
+    
+    .REStoggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+  .bannerbyb .row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .headerbyb .container{
+    margin-left: 0;
+  }
+}
+

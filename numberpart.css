@@ -1,0 +1,450 @@
+
+
+.sec-numberpart{
+    background-color:#1B2A31 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+
+.rownumber1{
+    display: flex;
+    gap: 8px;
+    
+}
+    
+
+.hrbyb{
+    border:1px solid #484a4b00 ; 
+width: 520px;
+    background-color: #2b393f; 
+    
+}
+
+
+.numberP p{
+    font-family: Abril Fatface;
+    font-size: 60px;
+    color: #475259;
+    padding-bottom: 28px;
+}
+.numberright-content{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 20px;
+}
+.numberright-content h4{
+    font-size: 16px;
+   
+    font-family: "Poppins";
+    }
+
+    .numberbybparent{
+        font-display: flex;
+        justify-content: center;
+
+    }
+    .row_number10{
+        padding-left: 14px;
+        padding-right: 10px;
+    }
+    .row .row_number11{
+        margin-left: 26px;
+        padding-right: 25px;
+    }
+    .row .row_number01{
+        margin-left: 10px;
+    }
+    .row_number02{
+        margin-left: 5px;
+    }
+    .textP{
+        margin-top: 16px;
+        font-size: 13px;
+        font-family: "Poppins";
+        line-height: 23px;
+        }
+
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+
+    
+
+.sec-numberpart{
+    background-color:#1B2A31 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.sec-numberpart br{
+display: none;
+}
+
+.rownumber1{
+    display: block;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+.hrbyb{
+    border:1px solid #484a4b00 ; 
+width: 100%;
+    background-color: #2b393f; 
+    
+}
+.partONE hr.hrbybONE {
+    display: none;
+}
+
+.numberP p{
+    font-family: Abril Fatface;
+    font-size: 60px;
+    color: #475259;
+}
+.numberright-content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 20px;
+}
+.numberright-content h4{
+    
+    font-size: 16px;
+   
+    font-family: "Poppins";
+    }
+
+    .numberbybparent{
+        font-display: flex;
+        justify-content: center;
+
+    }
+    .row .row_number11{
+        margin-left: 26px;
+    }
+    .row .row_number01{
+        margin-left: 10px;
+    }
+    .row_number02{
+        margin-left: 5px;
+    }
+    .row_number05{
+        padding-left: 5px;
+    }
+    .row_number07{
+        padding-left: 5px;
+    }
+    .textP{
+       
+        margin-top: 14px;
+        font-size: 12px;
+        font-family: "Poppins";
+        }
+
+
+
+}
+ 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    
+.sec-numberpart{
+    background-color:#1B2A31 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.rownumber1{
+    display: block;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+.hrbyb{
+    border:1px solid #484a4b00 ; 
+width: 100%;
+    background-color: #2b393f; 
+    
+}
+.partONE hr.hrbybONE {
+    display: none;
+}
+
+.numberP p{
+    font-family: Abril Fatface;
+    font-size: 60px;
+    color: #475259;
+}
+.numberright-content{
+    display: flex;
+    align-items: center;
+   
+    gap: 60px;
+    padding: 20px 55px;
+}
+.numberright-content h4{
+    
+    font-size: 16px;
+   
+    font-family: "Poppins";
+    }
+
+    .numberbybparent{
+        font-display: flex;
+        justify-content: center;
+
+    }
+    .row .row_number11{
+        margin-left: 26px;
+    }
+    .row .row_number01{
+        margin-left: 10px;
+    }
+    .row_number02{
+        margin-left: 3px;
+    }
+    .row_number07{
+        margin-left: 5px;
+    }
+    .row_number03{
+        margin-left: 5px;
+    }
+    .row_number05{
+        margin-left: 5px;
+    }
+    .textP{
+       
+        margin-top: 14px;
+        font-size: 12px;
+        font-family: "Poppins";
+        }
+
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+
+.sec-numberpart{
+    background-color:#1B2A31 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+
+.rownumber1{
+    display: block;
+    gap: 8px;
+    
+}
+.partONE hr.hrbybONE {
+    display: none;
+}
+.sec-numberpart .row{
+    margin: 0;
+    padding:0 80px;
+}    
+
+.hrbyb{
+    border:1px solid #484a4b00 ; 
+width: 520px;
+    background-color: #2b393f; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.numberP p{
+    font-family: Abril Fatface;
+    font-size: 60px;
+    color: #475259;
+}
+.numberright-content{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 20px;
+}
+.numberright-content h4{
+    font-size: 20px;
+   
+    font-family: "Poppins";
+    }
+
+    .numberbybparent{
+        font-display: flex;
+        justify-content: center;
+
+    }
+    .row_number10{
+        padding-left: 14px;
+        padding-right: 10px;
+    }
+    .row .row_number11{
+        margin-left: 26px;
+        padding-right: 25px;
+    }
+    .row .row_number01{
+        margin-left: 10px;
+    }
+    .row_number02{
+        margin-left: 5px;
+    }
+    .row_number07{
+        margin-left: 5px;
+    }
+    .row_number05{
+        margin-left: 5px;
+    }
+    .textP{
+        margin-top: 16px;
+        font-size: 12px;
+        font-family: "Poppins";
+        }
+
+
+
+}
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+   
+    .sec-numberpart{
+        background-color:#1B2A31 ;
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+        padding-bottom: 110px;
+    }
+    .sec-numberpart br{
+        display: none;
+    }
+    .rownumber1{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        
+    }
+    .rownumber1 .col-md-6{
+        width: 100%;
+    }
+  
+    .sec-numberpart .row{
+        margin: 0;
+        padding:0 80px;
+    }    
+    .hrbybONE{
+        display: none !important;
+    }
+    .hrbyb{
+        border:1px solid #484a4b00 ; 
+    width: 100%;
+        background-color: #2b393f; 
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .numberP p{
+        font-family: Abril Fatface;
+        font-size: 60px;
+        color: #475259;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .numberright-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 20px 20px;
+        height: 170px;
+        width: 100%;
+    }
+    .numberright-content h4{
+        font-size: 16px;
+       
+        font-family: "Poppins";
+        }
+    
+        .numberbybparent{
+            font-display: flex;
+            justify-content: center;
+    
+        }
+      
+        .row .row_number01{
+            margin-left: 10px;
+            width: 450px;
+        }
+        .row_number02{
+            margin-left: 5px;
+            width: 450px;   
+        }
+        .row_number03{
+            width: 450px;
+        }
+        .row_number04{
+            width: 450px;
+        }
+        .row_number05{
+            margin-left: 5px;
+            width: 450px;
+        }
+        .row_number06{
+            width: 450px;
+        }
+        .row_number07{
+            margin-left: 5px;
+            width: 450px;
+        }
+        .row_number08{
+            width: 450px;
+        }
+        .row_number09{
+            width: 450px;
+        }
+        .row_number10{
+            margin-right: 13px;
+            width: 450px;
+        }
+        .row .row_number11{
+            margin-left: 26px;
+            padding-right: 25px;
+            width: 450px;
+        }
+        .textP{
+            margin-top: 16px;
+            font-size: 12px;
+            font-family: "Poppins";
+            }
+    
+}
+ 
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {}
+ 
+
+
